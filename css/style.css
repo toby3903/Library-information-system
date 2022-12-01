@@ -274,7 +274,7 @@ button {
 .logo a {
      font-size: 30px;
      line-height: 25px;
-     color: #fff;
+     color: 	#000000;
      font-weight: bold;
 }
 
@@ -433,7 +433,7 @@ ul.search li a:hover {
 }
 
 .titlepage span {
-     font-size: 17px;
+     font-size: 20px;
      line-height: 25px;
      color: #191919;
      padding-top: 13px;
@@ -517,7 +517,7 @@ ul.search li a:hover {
 }
 
 .plan_text {
-     background-color: #f8d98f;
+     background-color: 		#E9967A;
      cursor: pointer;
      padding: 49px 40px;
 }
@@ -707,25 +707,45 @@ ul.search li a:hover {
 
 .marriage_text h3 {
      color: #252525;
+     letter-spacing: 0.05em;
      font-size: 24px;
-     line-height: 25px;
+     line-height: 40px;
      font-weight: bold;
      padding-bottom: 30px;
 }
 
 .marriage_text p {
      color: #202020;
-     font-size: 17px;
-     line-height: 30px;
+     font-size: 24px;
+     line-height: 40px;
      padding-bottom: 43px;
 }
 
 .marriage_text h4 {
      color: #202020;
-     font-size: 17px;
-     line-height: 20px;
+     font-size: 20px;
+     line-height: 30px;
      font-weight: bold;
 }
+share {
+     border: 1px solid LightGrey;
+     padding: 40px 0px;
+     position: relative;
+     text-align: center;
+     width: 100%;
+   }
+ 
+ .share a {
+     background: #f5f5dc;
+     border: 1px solid #f5f5dc;
+     border-radius: 3px;
+     color: black;
+     display: inline-block;
+     margin: 10px;
+     padding: 14px;
+     text-decoration: none;
+     left:100px;
+   }
 
 .padd_right {
      padding-left: 30px;
